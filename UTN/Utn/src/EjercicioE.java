@@ -13,7 +13,7 @@ public class EjercicioE {
 		
 		boolean claseAlta=false;
 		
-		System.out.println("Indique cuanto autos posee con antiguedad menor a 5 años ");
+		System.out.println("Indique cantidad de autos posee con antiguedad menor a 5 años ");
 		int dato2=entrada.nextInt();
 		System.out.println("Indique si posee Inmuebles ");
 		int dato3=entrada.nextInt();
