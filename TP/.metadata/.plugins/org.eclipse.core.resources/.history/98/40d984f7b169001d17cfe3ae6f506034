@@ -1,0 +1,31 @@
+package ar.com.gugler.sgc.modelo;
+
+import java.util.ArrayList;
+
+import tp.Profesor;
+
+import java.util.*;
+
+public class Asignatura {
+	
+	public int codigo;
+	public String nombre;
+	List<Almuno> alumnos=new ArrayList<>();
+	public Profesor profesores;
+	
+	
+	public int getCodigo() {
+		return codigo;
+	}
+	public void setCodigo(int codigo) {
+		this.codigo = codigo;
+	}
+	public String getNombre() {
+		return nombre;
+	}
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+	
+
+}

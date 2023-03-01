@@ -1,0 +1,25 @@
+import java.util.*;
+
+
+public class EjecicioB {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		
+		System.out.println("Ingrese un Numero: ");
+		
+		Scanner numero= new Scanner(System.in);
+		
+		int nros1=numero.nextInt();
+		
+		if(nros1%2==0) {
+			System.out.println("Pares "+nros1);
+		}else {
+			System.out.println("Impares "+nros1);
+		}
+
+	}
+
+}

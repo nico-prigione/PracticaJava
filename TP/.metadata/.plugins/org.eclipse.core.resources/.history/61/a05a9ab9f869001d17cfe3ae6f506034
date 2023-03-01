@@ -1,0 +1,30 @@
+package ar.com.gugler.sgc.modelo;
+
+import java.util.*;
+
+public class Curso extends Asignatura {
+	public Curso(int codigo, String nombre, List<Almuno> alumnos, Profesor profesores) {
+		super(codigo, nombre, alumnos, profesores);
+		// TODO Auto-generated constructor stub
+	}
+
+	public int cupo;
+	
+	
+	
+	public void eliminarAlumno(List<Almuno> a) {
+		if(cupo <=11) {
+			a.remove(cupo);
+		}
+	}
+	
+	public int getCupo() {
+		return cupo;
+	}
+
+	public void setCupo(int cupo) {
+		this.cupo = cupo;
+	}
+	
+	
+}

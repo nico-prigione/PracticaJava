@@ -1,0 +1,13 @@
+import javax.swing.*;
+
+public class PracticaNueva {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String nombre_usuario=JOptionPane.showInputDialog("Introduzca Nombre: ");
+		
+		
+
+	}
+
+}

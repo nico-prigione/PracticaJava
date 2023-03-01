@@ -1,0 +1,19 @@
+
+public class Clase1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int inicio=5;
+		int fin=14;
+		
+		while(inicio>=5) {
+			
+			System.out.println(inicio);
+			inicio++;
+			
+		}
+
+	}
+
+}

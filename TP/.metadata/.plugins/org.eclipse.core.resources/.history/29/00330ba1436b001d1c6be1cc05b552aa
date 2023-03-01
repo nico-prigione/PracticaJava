@@ -1,0 +1,11 @@
+package ar.com.gugler.sgc.modelo;
+
+public class TPfinal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+
+	}
+
+}

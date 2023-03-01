@@ -1,0 +1,19 @@
+
+public class Clase1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int i=6;
+		while(i>0) {
+			if(i<3) {
+				i++;
+			}
+			
+			i=i-2;
+			System.out.println(i);
+		}
+
+	}
+
+}

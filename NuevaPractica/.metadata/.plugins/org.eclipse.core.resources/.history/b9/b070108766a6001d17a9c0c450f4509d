@@ -1,0 +1,18 @@
+package clave;
+import java.lang.StackWalker.Option;
+import java.util.*;
+
+import javax.swing.JOptionPane;
+public class AdivinaNumero {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int aleatorio=(int)(Math.random()*100);
+		
+		System.out.println(aleatorio);
+		
+		JOptionPane.showInputDialog(aleatorio);
+
+	}
+
+}

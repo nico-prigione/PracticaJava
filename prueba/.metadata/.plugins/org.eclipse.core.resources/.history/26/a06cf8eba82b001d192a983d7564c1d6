@@ -1,0 +1,8 @@
+package clase1;
+
+public class ejercicio2 {
+	
+	string cadena=javax.swing.JOptionPane.showInputDialog(“Nicolas PRIGIONE”);
+	System.out.println(“Hola “ + cadena);
+
+}

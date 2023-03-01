@@ -1,0 +1,19 @@
+package tp;
+
+import ar.com.gugler.sgc.modelo.Asignatura;
+
+public class Curso extends Asignatura {
+	public int cupo;
+	
+	
+
+	public int getCupo() {
+		return cupo;
+	}
+
+	public void setCupo(int cupo) {
+		this.cupo = cupo;
+	}
+	
+	
+}

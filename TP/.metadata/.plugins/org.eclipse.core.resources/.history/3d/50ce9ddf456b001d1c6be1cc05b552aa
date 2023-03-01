@@ -1,0 +1,18 @@
+package ar.com.gugler.sgc.modelo;
+
+import java.util.*;
+
+public class TPfinal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		List<Almuno> alumnos=new ArrayList<>();
+		
+		alumnos.addAll(alumnos);
+		
+		
+
+	}
+
+}
